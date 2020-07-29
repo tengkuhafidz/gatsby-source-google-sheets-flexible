@@ -50,7 +50,7 @@ const fetchRawSheetsData = async (options) => {
     spreadsheetId,
     spreadsheetUrl,
     tabName,
-    cellRange = '',
+    cellRange = 'A1:Z1000',
     majorDimension = 'ROWS',
     valueRenderOption = 'FORMATTED_VALUE',
     dateTimeRenderOption = 'FORMATTED_STRING',

@@ -18,10 +18,10 @@ This is a Gatsby source plugin that has all the options provided by the Google S
 
 ### Step 2: Configure your Gatsby Project
 
-1. install plugin by running `npm i gatsby-source-google-sheets-flexible`
-2. add the plugin in your `gatsby-config.js` file
+1. Install plugin by running `npm i gatsby-source-google-sheets-flexible`
+2. Add the plugin in your `gatsby-config.js` file
 
-**Available Options**
+**Available Options:**
 - **apiKey:** Your google api key as in step 1.
 - **spreadsheetId:** The ID of the Google Sheets document to retrieve data from. *Not required if you use the `spreadsheetUrl` option (next line)*.
 - **spreadsheetUrl:** The url of Google Sheets document to retrieve data from. *Not required if you use the `spreadsheetId` option (previous line)*.
@@ -37,7 +37,7 @@ This is a Gatsby source plugin that has all the options provided by the Google S
 - You can add the plugin with different configurations multiple times to pull data from different Google Sheets tabs/files
 
 
-**Example of using the plugin to retrieve data from 2 tabs in the same sheets, using `spreadsheetUrl` for one, and `spreadsheetId` for the other:** 
+**Example of using the plugin to retrieve data from 2 tabs in the same Google Sheets document, using `spreadsheetUrl` for one, and `spreadsheetId` for the other:** 
 (in `gatsby-config.js`)
 ```
 module.exports = {
